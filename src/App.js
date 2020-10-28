@@ -16,10 +16,10 @@ function App() {
      <div className="App">
          <div> < Navbar /> </div>
        {/* <div className="jumbotron"> */}
-        <Route exact path="/#/" component={Home} />
-        <Route exact path="/#/projects" component={Projects} />
-        <Route exact path="/#/documents" component={Documents}/>
-        <Route exact path="/#/contact" component={Contact} />
+        <Route exact path="portfolio-ashtonwalden/#/" component={Home} />
+        <Route exact path="portfolio-ashtonwalden/#/projects" component={Projects} />
+        <Route exact path="portfolio-ashtonwalden/#/documents" component={Documents}/>
+        <Route exact path="portfolio-ashtonwalden/#/contact" component={Contact} />
        {/* </div> */}
      </div>
      {/* <Footer /> */}
