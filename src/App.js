@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter, Route, Link } from "react-router-dom";
 import Home from "./Pages/Home"
 import Projects from "./Pages/Projects"
 import Documents from "./Pages/Documents"
@@ -12,7 +12,7 @@ import './App.css';
 
 function App() {
   return (
-   <Router>
+   <HashRouter basename='/'>
      <div className="App">
          <div> < Navbar /> </div>
        {/* <div className="jumbotron"> */}
@@ -23,7 +23,7 @@ function App() {
        {/* </div> */}
      </div>
      {/* <Footer /> */}
-   </Router>
+   </HashRouter>
   );
 }
 
