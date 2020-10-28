@@ -3,22 +3,22 @@
 export const MenuItems = [
     {
         title: 'Home',
-        url: 'portfolio-ashtonwalden/#/',
+        url: '/#/',
         cName: 'nav-links'
     },
     {
         title: 'Projects',
-        url: 'portfolio-ashtonwalden/#/projects',
+        url: '/#/projects',
         cName: 'nav-links'
     },
     {
         title: 'Documents',
-        url: 'portfolio-ashtonwalden/#/documents',
+        url: '/#/documents',
         cName: 'nav-links'
     },
     {
         title: 'Contact',
-        url: 'portfolio-ashtonwalden/#/contact',
+        url: '/#/contact',
         cName: 'nav-links'
     }, 
     // {
