@@ -1,0 +1,105 @@
+body {
+    background-color: #272727;
+}
+
+/* .img-container {
+    width: 30vw;
+    height: 20vw;
+    margin: 10px;
+}
+
+.portfolioImg {
+    width: 30vw;
+    height: 20vw;
+    margin: 10px;
+} */
+
+/* aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: #272727;
+} */
+
+
+/* Home Page */
+    .aboutMeWrapper {
+        width: 75vw;
+        display: inline-block;
+    }
+
+    .aboutMeTitle {
+        color: #66FCF1;
+        text-decoration: underline;
+    }
+
+    .aboutMeBody {
+        color: #C5C6C7;
+        margin-bottom: 10vh;
+    }
+
+    .randomFactsWrapper {
+        width: 75%;
+        display: inline-block;
+        border-radius: 4px;
+        background-color: #45A29E;
+        margin: 10px;
+    }
+
+    .factsLabel {
+        text-decoration: underline;
+        margin: 2vh;
+    }
+
+    .randomFacts {
+        background-color: #1F2833;
+        margin: 0;
+    }
+
+    .factsLabel {
+        color: #1F2833;
+    }
+
+    .fact {
+        /* Take away bullet point like on navbar */
+        color: #C5C6C7;
+    }
+
+/* Projects Page */
+
+/* Documents Page */
+.docsWrapper {
+    background-color: #272727;
+}
+
+.certificate {
+    padding-top: 25px;
+    width: 70%;
+    max-width: 600px;
+    height: 300px;
+    padding-bottom: 25px;
+}
+
+.resume {
+    width: 90%;
+    max-width: 800px;
+    height: 450px;
+    padding-bottom: 25px;
+}
+
+
+/* Contact Page */
+.contactHeader {
+    color:#66FCF1;
+    text-decoration: underline;
+}
+
+.contactText {
+    color:#C5C6C7;
+}
+
+.socialIcon {
+    padding: 10px
+}
